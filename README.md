@@ -1,6 +1,6 @@
 # Steam Face Detection
 
-![Input][wiki-cover-input] ![Output][wiki-cover-output]
+<img alt="Input" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/cover-input.jpg" width="375"> -> <img alt="Output" src="https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/cover-output.jpg" width="375">
 
 This repository contains Python code to detect faces on Steam store/library images.
 
@@ -14,7 +14,7 @@ This repository contains Python code to detect faces on Steam store/library imag
 
 The dataset consists of 14k vertical images, resized from 300x450 to 256x256 resolution, used by the Steam library.
 
-Images were downloaded with .
+Images were downloaded with [`download_steam_banners.ipynb`][download_steam_banners].
 [![Open In Colab][colab-badge]][download_steam_banners]
 
 Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.ipynb`][filter_steam_banners].
@@ -23,7 +23,7 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
 ## Recommendations
 
 I have used two tools for face detection:
--   [`dlib`][dlib-github], which I had used in [another one][stylegan2-projecting-images] of my projects,
+-   [`dlib`][dlib-github], which I used in [another one][stylegan2-projecting-images] of my projects,
 -   [`face-alignment`][python-face-alignment].
 
 Overall, I would recommend to use `face-alignment` as:
@@ -34,6 +34,7 @@ Overall, I would recommend to use `face-alignment` as:
 
 Overall, most images do not feature any detected face.
 Among images with faces, most images feature a single face.
+The more detected faces, the fewer images.
 
 ![Distribution of the number of detected faces][wiki-histogram]
 
