@@ -27,7 +27,7 @@ I have used two tools for face detection:
 -   [`face-alignment`][python-face-alignment].
 
 Overall, I would recommend to use `face-alignment` as:
--   it detects more faces on Steam images, which feature difficult faces (hand-drawings, anime, 3D model, etc.),
+-   it detects more faces on Steam images, which feature difficult faces (hand-drawings, anime, 3D models, etc.),
 -   it is about 3.5 times faster.
 
 ## Results
@@ -44,7 +44,7 @@ Here are a few face detection results:
 
 ![Peaky Blinders][wiki-peakyblinders] ![Event D][wiki-eventD]
 
-Keep in mind that the algorithm is not foolpoof!
+Keep in mind that the algorithm is not foolproof!
 
 ![Anime][wiki-anime] ![Failures][wiki-failures]
 
