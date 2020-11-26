@@ -52,8 +52,8 @@ Keep in mind that the algorithm is not foolproof!
 
 -   To download images: [`download_steam_banners.ipynb`][download_steam_banners] in [`woctezuma/google-colab`][code]
 -   To filter out duplicates, etc.:
-    - for PNG logos: `remove_duplicates.ipynb` in [`woctezuma/google-colab`][code]
-    - for JPG banners: `remove_duplicates.ipynb` in [`woctezuma/steam-stylegan2-ada`][code-ada]
+    - for PNG logos: [`remove_duplicates.ipynb`][filter_steam_logos] in [`woctezuma/google-colab`][code]
+    - for JPG banners: [`remove_duplicates.ipynb`][filter_steam_banners] in [`woctezuma/steam-stylegan2-ada`][code-ada]
 -   Data stored on Google Drive: [`woctezuma/download-steam-banners-data`][images]
 -   Python package for face detection: [`face-alignment`][python-face-alignment]
 
@@ -67,6 +67,7 @@ Keep in mind that the algorithm is not foolproof!
 [colab-notebook-face-detection]: <https://colab.research.google.com/github/woctezuma/steam-face-detection/blob/main/detect_faces_on_steam_banners.ipynb>
 
 [download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
+[filter_steam_logos]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/remove_duplicates.ipynb>
 [filter_steam_banners]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/remove_duplicates.ipynb>
 
 [dlib-github]: <https://github.com/davisking/dlib>
