@@ -6,7 +6,7 @@ This repository contains Python code to detect faces on Steam store/library imag
 
 ## Usage
 
--   Acquire the data, e.g. as a snapshot called `256x256.zip` in [my data repository][data-repository],
+-   Acquire the data, e.g. as a snapshot called `256x256.zip` in one of my data repositories ([here][data-repository] or [there][filtered-images]),
 -   Run [`detect_faces_on_steam_banners.ipynb`][colab-notebook-face-detection] to detect (and count) faces.
 [![Open In Colab][colab-badge]][colab-notebook-face-detection]
 
