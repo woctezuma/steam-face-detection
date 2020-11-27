@@ -54,7 +54,9 @@ Keep in mind that the algorithm is not foolproof!
 -   To filter out duplicates, etc.:
     - for PNG logos: [`remove_duplicates.ipynb`][filter_steam_logos] in [`woctezuma/google-colab`][code]
     - for JPG banners: [`remove_duplicates.ipynb`][filter_steam_banners] in [`woctezuma/steam-stylegan2-ada`][code-ada]
--   Data stored on Google Drive: [`woctezuma/download-steam-banners-data`][images]
+-   Data stored on Google Drive:
+    - filtered images: [`woctezuma/download-steam-banners-data`][images]
+    - filtered images, with less aggressive filters: [`woctezuma/steam-filtered-image-data`][filtered-images]
 -   Python package for face detection: [`face-alignment`][python-face-alignment]
 
 <!-- Definitions -->
@@ -88,3 +90,4 @@ Keep in mind that the algorithm is not foolproof!
 [code]: <https://github.com/woctezuma/google-colab>
 [code-ada]: <https://github.com/woctezuma/steam-stylegan2-ada>
 [images]: <https://github.com/woctezuma/download-steam-banners-data>
+[filtered-images]: <https://github.com/woctezuma/steam-filtered-image-data>
