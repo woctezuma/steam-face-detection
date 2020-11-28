@@ -46,7 +46,8 @@ Here are a few face detection results:
 
 Keep in mind that the algorithm is not foolproof!
 
-![Anime][wiki-anime] ![Failures][wiki-failures]
+![Many faces][wiki-many] ![Anime][wiki-anime]
+![Both photo and anime][wiki-mixed] ![Failures][wiki-failures]
 
 ## References
 
@@ -84,6 +85,8 @@ Keep in mind that the algorithm is not foolproof!
 [wiki-peakyblinders]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/peaky.jpg>
 [wiki-eventD]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/eventd.jpg>
 
+[wiki-many]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/many.jpg>
+[wiki-mixed]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/mixed.jpg>
 [wiki-anime]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/anime.jpg>
 [wiki-failures]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/failures.jpg>
 
