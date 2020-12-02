@@ -58,6 +58,7 @@ Keep in mind that the algorithm is not foolproof!
 -   Data stored on Google Drive:
     - filtered images: [`woctezuma/download-steam-banners-data`][images]
     - filtered images, with less aggressive filters: [`woctezuma/steam-filtered-image-data`][filtered-images]
+    - the Steam-OneFace dataset: [`Steam-OneFace`][steam-oneface-section]
 -   Python package for face detection: [`face-alignment`][python-face-alignment]
 
 <!-- Definitions -->
@@ -94,3 +95,4 @@ Keep in mind that the algorithm is not foolproof!
 [code-ada]: <https://github.com/woctezuma/steam-stylegan2-ada>
 [images]: <https://github.com/woctezuma/download-steam-banners-data>
 [filtered-images]: <https://github.com/woctezuma/steam-filtered-image-data>
+[steam-oneface-section]: <https://github.com/woctezuma/steam-filtered-image-data#steam-oneface-dataset>
