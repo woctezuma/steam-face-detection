@@ -55,11 +55,11 @@ Keep in mind that the algorithm is not foolproof!
 -   To filter out duplicates, etc.:
     - for PNG logos: [`remove_duplicates.ipynb`][filter_steam_logos] in [`woctezuma/google-colab`][code]
     - for JPG banners: [`remove_duplicates.ipynb`][filter_steam_banners] in [`woctezuma/steam-stylegan2-ada`][code-ada]
+-   Python package for face detection: [`face-alignment`][python-face-alignment]
 -   Data stored on Google Drive:
     - filtered images: [`woctezuma/download-steam-banners-data`][images]
     - filtered images, with less aggressive filters: [`woctezuma/steam-filtered-image-data`][filtered-images]
     - the Steam-OneFace dataset: [`Steam-OneFace`][steam-oneface-section]
--   Python package for face detection: [`face-alignment`][python-face-alignment]
 
 <!-- Definitions -->
 
