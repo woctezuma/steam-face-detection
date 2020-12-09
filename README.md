@@ -22,13 +22,16 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
 
 ## Recommendations
 
-I have used two tools for face detection:
+I have used 3 tools for face detection:
 -   [`dlib`][dlib-github], which I used in [another one][stylegan2-projecting-images] of my projects,
--   [`face-alignment`][python-face-alignment].
+-   [`face-alignment`][python-face-alignment],
+-   [`retinaface`][retinaface], available [on PyPI][retinaface-pypi].
 
-Overall, I would recommend to use `face-alignment` as:
+Overall, I would recommend to use `face-alignment` over `dlib` as:
 -   it detects more faces on Steam images, which feature difficult faces (hand-drawings, anime, 3D models, etc.),
 -   it is about 3.5 times faster.
+
+RetinaFace can detect even more faces, but it is slower than `face-alignment`.
 
 ## Results
 
@@ -77,6 +80,8 @@ Keep in mind that the algorithm is not foolproof!
 [dlib-github]: <https://github.com/davisking/dlib>
 [stylegan2-projecting-images]: <https://github.com/woctezuma/stylegan2-projecting-images>
 [python-face-alignment]: <https://github.com/1adrianb/face-alignment>
+[retinaface]: <https://github.com/ternaus/retinaface>
+[retinaface-pypi]: <https://pypi.org/project/retinaface-pytorch/>
 
 [wiki-histogram]: <https://raw.githubusercontent.com/wiki/woctezuma/steam-face-detection/img/histogram.jpg>
 
