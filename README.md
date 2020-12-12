@@ -10,6 +10,9 @@ This repository contains Python code to detect faces on Steam store/library imag
 -   Run [`detect_faces_on_steam_banners.ipynb`][colab-notebook-face-detection] to detect (and count) faces.
 [![Open In Colab][colab-badge]][colab-notebook-face-detection]
 
+NB: In order to try and adjust parameters, I suggest that you experiment with [`benchmark_face_detection.ipynb`][colab-notebook-benchmark].
+[![Open In Colab][colab-badge]][colab-notebook-benchmark]
+
 ## Data
 
 The dataset consists of 14k vertical images, resized from 300x450 to 256x256 resolution, used by the Steam library.
@@ -74,6 +77,7 @@ Keep in mind that the algorithm is not foolproof!
 [data-repository]: <https://github.com/woctezuma/download-steam-banners-data>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 [colab-notebook-face-detection]: <https://colab.research.google.com/github/woctezuma/steam-face-detection/blob/main/detect_faces_on_steam_banners.ipynb>
+[colab-notebook-benchmark]: <https://colab.research.google.com/github/woctezuma/steam-face-detection/blob/main/benchmark_face_detection.ipynb>
 
 [download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
 [filter_steam_logos]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/remove_duplicates.ipynb>
